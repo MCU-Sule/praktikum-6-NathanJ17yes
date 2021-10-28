@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Nathan Joshua_2172026">
+    <title>Document</title>
+   <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;1,300&display=s
+    wap" rel="stylesheet">
+<style>
+    body {
+        background-image: url(assets/background.jpg);
+    }
+    h1{
+        font-family: 'mulish', sans-serif;
+        color: blue;
+        text-align: center;
+    }
+    #dasar {
+        height: 600px;
+        width: 650px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    #kiri{
+        width:50%;
+        background-color: rgba(200, 214, 229,0.8);
+        font-family: 'mulish', sans-serif;
+        padding: 50px;
+
+    }
+    #kanan{
+        width: 400px;
+        font-family: 'mulish', sans-serif;
+        background-color: rgba(220, 221, 225,0.8);
+        padding : 50px;
+        padding-top: 5px;
+    }
+    #Sign {
+        font-family: 'mulish', sans-serif;
+        color:black;
+        margin-top: 10px;
+        text-align: center;
+    }
+    #Email {
+        border: none;
+        border-bottom: 1px solid black;
+        background-color: rgba(200, 214, 229,0.8);
+        outline-width: 0;
+        width: 210px;
+        
+      
+    
+    }
+    #password {
+        border: none;
+        border-bottom: 1px solid black;
+        background-color: rgba(200, 214, 229,0.8);
+        width: 210px;
+        outline-width: 0;
+        width: 210px;
+    }
+    #t1 {
+        border-radius: 50px;
+        background-color: #2ed573;
+        width: 150px;
+        height: 30px;
+        text-align: center;
+        padding-top: 10px;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+    }
+    #t1:hover {
+        background-color:rgba(200, 214, 229,0.8);
+        color: #2ed573;
+        border-style: solid;
+        transition: 0.3s;
+    }
+    #name {
+        border: none;
+        border-bottom: 1px solid black;
+        background-color: rgba(220, 221, 225,0.8);
+        outline-width: 0;
+        width: 210px;
+    }
+    #Emaill {
+        border: none;
+        border-bottom: 1px solid black;
+        background-color: rgba(220, 221, 225,0.8);
+        outline-width: 0;
+        width: 210px;
+    }
+    #date {
+        border: none;
+        border-bottom: 1px solid black;
+        background-color: rgba(220, 221, 225,0.8);
+        outline-width: 0;
+        width: 210px;
+    }
+    #regis {
+        font-family: 'mulish', sans-serif;
+        color:black;
+        margin-top: 10px;
+        text-align: center;
+    }
+    #t2 {
+        border-radius: 50px;
+        background-color: #38ada9;
+        width: 150px;
+        height: 30px;
+        text-align: center;
+        padding-top: 10px;
+        margin-top: 45px;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+    }
+    #t2:hover {
+        background-color:rgba(220, 221, 225,0.8);
+        color: #38ada9;
+        border-style: solid;
+        transition: 0.3s;
+        }
+</style>
+</head>
+<body>
+    <h1>Fill in this form</h1>
+    <div id ="dasar">
+    <div id ="kiri">
+        <h2 id = "Sign">
+            Sign in
+        </h2>
+        <br>
+        <label for="Email">Email :</label> 
+        <input type="text" id="Email" placeholder="nrp@maranatha.ac.id"> <br> <br>
+        <label for="password">Password :</label> 
+        <input type="password" id="password">
+
+        <div id="t1">
+            Sign in
+        </div>
+        <p style="font-family: 'mulish', sans-serif; color: blue; text-align: center; font-size: 12px;">forgot password?</p>
+
+    </div>
+    <div id ="kanan">
+        <h2 id = "regis">
+            Register
+        </h2>
+        <br>
+        <label for="name">Name :</label> <br>
+        <input type="text" id="name"> <br> <br> 
+        <label for="Emaill">Email :</label><br> 
+        <input type="text" id="Emaill"> <br> <br>
+        <label for="date">Date of birth :</label> <br>
+        <input type="date" id="date"><br> <br>
+        <label for="ad">Address :</label><br> 
+        <input type="text" id="Emaill"> <br> <br>
+        <lable for="gender">Gender</lable><br>
+        <input type="radio" id ="gender" name="gender">Male 
+        <input type="radio" id ="gender" name="gender">female<br><br>
+        <label for="hobby">Hobby :</label> <br>
+        <input type="checkbox" id= "hobby"> Singing<br>
+        <input type="checkbox" id= "hobby"> Playing<br>
+        <input type="checkbox" id= "hobby"> Coding<br>
+
+        <div id="t2">
+            Register
+        </div>
+        
+
+        
+
+        
+    </div>
+</div>
+    
+</body>
+</html>
